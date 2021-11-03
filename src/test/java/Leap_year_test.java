@@ -14,7 +14,7 @@ public class Leap_year_test {
     /* this test checks one of the criteria
      for a year not to be a leap year. The wanted result is false*/
     @ParameterizedTest
-    @MethodSource("year")
+    @MethodSource("")
     public void is_year_divisible_by_100_and_not_400(boolean expected, int input) {
         assertEquals(expected,
                 LeapYear.isLeapYear(input));
