@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
-public class Leap_year_test {
+public class Test_leap_year {
 
     /* this test checks one of the criteria
      for a year not to be a leap year. The wanted result is false*/
